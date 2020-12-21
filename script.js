@@ -17,3 +17,8 @@ console.log(a+' '+b);
 console.log(p);
 console.log(s);
 console.log(p/s);
+
+let f=27;
+let c=-40;
+console.log(c+'°C cоответствует: '+((c*1.8)+32)+'°F');
+console.log(f+'°F cоответствует: '+((f-32)*(5/9))+'°C');
