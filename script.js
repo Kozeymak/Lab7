@@ -25,3 +25,11 @@ console.log(f+'°F cоответствует: '+((f-32)*(5/9))+'°C');
 
 let year=prompt('Какой год?',2020);
 (((year%4==0)&&(year%100!=0))||(year%400==0))? alert("Это високосный год!"):alert("Это не високосный год!");
+
+let first=Number(prompt('Введите первое число:',5));
+let second=Number(prompt('Введите второе число:',5));
+if ((first==10)||(second==10)||(first+second==10)) {
+    alert("Истина");
+} else {
+    alert("Ложь");
+}
